@@ -26,7 +26,7 @@ const Skills = () => {
           </h2>
           <div className="text-gray-200">
             <p className="mt-2">
-              // These are the technologies i've worked with
+              {"// These are the technologies i've worked with"}
             </p>
           </div>
         </div>

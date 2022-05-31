@@ -18,7 +18,9 @@ const Works = () => {
           <h2 className=" text-3xl text-gray-100 inline border-b-4 border-pink-600 ">
             Works
           </h2>
-          <p className="text-gray-200 py-3">// Check out some of ma works</p>
+          <p className="text-gray-200 py-3">
+            {"// Check out some of ma works"}
+          </p>
         </div>
 
         <div className=" w-full grid md:grid-cols-3 grid-cols-2 gap-4 mb-4 md:ml-8 ">
