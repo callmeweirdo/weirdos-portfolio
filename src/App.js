@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import {
+  Navbar,
+  Home,
+  About,
+  Skills,
+  Works,
+  Contact,
+} from "./components/imports";
 
 function App() {
+  const [darkTheme, setDarkTheme] = useState(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={darkTheme ? "dark" : ""}>
+      <span className="">
+        <Navbar darkTheme={darkTheme} setDarkTheme={setDarkTheme} />
+        <Home />
+        <About />
+        <Skills />
+        <Works />
+        <Contact />
+      </span>
     </div>
   );
 }
