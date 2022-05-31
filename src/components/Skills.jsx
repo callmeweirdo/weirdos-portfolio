@@ -8,8 +8,8 @@ import {
   NODE,
   FIREBASE,
   MONGO,
-  TAILWIND,
-  AWS,
+  // TAILWIND,
+  // AWS,
 } from "./imports";
 
 const Skills = () => {
