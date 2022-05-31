@@ -4,7 +4,10 @@ import workImg from "../assets/workImg.png";
 
 const Works = () => {
   return (
-    <div name="works" className="h-full  w-full bg-[#64180e] works  ">
+    <div
+      name="works"
+      className="h-full  w-full bg-[#64180e] dark:bg-[#090914e5] works  "
+    >
       <div
         className=" max-w-[1000px]
         md:max-w-[750px]

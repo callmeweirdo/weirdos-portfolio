@@ -4,7 +4,7 @@ const contact = () => {
   return (
     <div
       name="contact"
-      className=" contact h-screen w-full bg-[#64180e] flex justify-center items-center p-8 "
+      className=" contact h-screen w-full bg-[#64180e] dark:bg-[#090914e5] flex justify-center items-center p-8 "
     >
       <div className=" text-gray-300 flex flex-col justify-center max-w-[600px]  md:max-w-[500px] lg:max-w-[800px] xl:max-w-[1000px] w-full  ">
         <div className="py-4 text-left">
@@ -12,12 +12,14 @@ const contact = () => {
             Contact
           </p>
           <p className="py-3">
-            // Submit the form below or shoot me an email - ogweirdo@onmail.com
+            {
+              "// Submit the form below or shoot me an email - ogweirdo@onmail.com"
+            }
           </p>
         </div>
         <form
-          action=""
-          className=" flex flex-col justify-center align-center  "
+          action="https://getform.io/f/1ef18998-65b6-43fd-8aac-93ecf0c8e50f"
+          className=" flex flex-col justify-center align-center  text-gray-700"
           method="post"
         >
           <input
@@ -44,7 +46,7 @@ const contact = () => {
             type="submit"
             value="submit"
             className="my-4 py-3 px-6 opacity-100 border-4 border-white mx-auto 
-            bg-gradient-to-r-button "
+            bg-gradient-to-r-button text-gray-200 "
           >
             Let's Collaborate
           </button>

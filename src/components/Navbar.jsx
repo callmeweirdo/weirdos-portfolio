@@ -20,7 +20,7 @@ const Navbar = ({ darkTheme, setDarkTheme }) => {
 
   return (
     // ? nav container
-    <div className=" fixed w-full flex justify-between items-center px-4 h-[80px] bg-[#64180e] dark:bg-[#1716338e] text-gray-300  ">
+    <div className=" fixed w-full flex justify-between items-center px-4 h-[80px] bg-[#64180e] dark:bg-[#090914cb] text-gray-300  ">
       {/* image container */}
       <div className="img z-10 ">
         <img src={Logo} className="h-[60px] rounded-full " alt="Ma Logo" />
@@ -56,9 +56,9 @@ const Navbar = ({ darkTheme, setDarkTheme }) => {
           <button
             type="button"
             onClick={() => setDarkTheme(!darkTheme)}
-            className="text-xl dark:bg-[#64180e] dark:text-gray-200 bg-[#64180e] border rounded-full px-2 py-1 hover:shadow-lg "
+            className="text-xl dark:bg-[#64180e] dark:bg-[#090914e5] dark:text-gray-200 bg-[#64180e] border rounded-full px-2 py-1 hover:shadow-lg "
           >
-            {darkTheme ? "Light 💡" : " Dark 🌚"}
+            {darkTheme ? " 💡" : "  🌚"}
           </button>
         </li>
       </ul>
@@ -71,7 +71,7 @@ const Navbar = ({ darkTheme, setDarkTheme }) => {
       </div>
       {/* mobile menu */}
       {mobile && (
-        <ul className=" flex flex-col top-0 left-0 justify-center items-center md:hidden absolute h-screen w-full bg-[#64180e] text-gray-300 ">
+        <ul className=" flex flex-col top-0 left-0 justify-center items-center md:hidden absolute h-screen w-full bg-[#64180e] dark:bg-[#090914e5] text-gray-300 ">
           <li className="py-5 text-4xl ">
             <Link onClick={onMobile} to="home" smooth="true" duration={500}>
               Home
