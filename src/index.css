@@ -25,12 +25,12 @@
   ) !important ;
 }
 
-.skills {
-  height: 110vh;
-}
+/* .skills {
+  height: 1200% !important;
+} */
 
 .works {
-  height: 125vh;
+  /* height: 100% !important; */
   /* width: 100%; */
 }
 
@@ -66,7 +66,7 @@
   height: 100% !important;
 } */
 
-@media screen and (max-width: 400px) {
+/* @media screen and (max-width: 400px) {
   .home {
     max-height: 100vh !important;
   }
@@ -109,7 +109,7 @@
   .works {
     height: 180vh;
   }
-}
+} 
 
 /* @media screen and (max-width: 3000px) and (min-width: 1000px) {
   .home {

@@ -6,13 +6,13 @@ const Works = () => {
   return (
     <div
       name="works"
-      className="h-full  w-full bg-[#64180e] dark:bg-[#090914e5] works  "
+      className="h-full pt-[80px] w-full bg-[#64180e] dark:bg-[#090914e5] works px-8 "
     >
       <div
         className=" max-w-[1000px]
         md:max-w-[750px]
         lg:max-w-[1000px]
-       mx-auto h-full w-full flex flex-col justify-center p-8 m "
+       mx-auto h-full w-full flex flex-col justify-center p-8  "
       >
         <div className="pb-8">
           <h2 className=" text-3xl text-gray-100 inline border-b-4 border-pink-600 ">
@@ -23,7 +23,7 @@ const Works = () => {
           </p>
         </div>
 
-        <div className=" w-full grid md:grid-cols-3 grid-cols-2 gap-4 mb-4 md:ml-8 ">
+        <div className=" w-full grid xs:grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-4 mb-4 md:ml-8 ">
           {/* work container */}
 
           <div

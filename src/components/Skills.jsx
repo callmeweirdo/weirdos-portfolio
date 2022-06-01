@@ -15,11 +15,11 @@ import {
 const Skills = () => {
   return (
     <div
-      style={{}}
+      // style={{ height: "1000%" }}
       name="skills"
-      className="bg-[#64180e] dark:bg-[#090914e5]  h-screen w-full skills "
+      className="bg-[#64180e] dark:bg-[#090914e5] pt-[100px]  h-full w-full skills "
     >
-      <div className=" max-w-[1000px] w-ful h-full  mx-auto flex flex-col  justify-center md:pl-[18%] lg:pl-[12%] xl:pl-[0%] ">
+      <div className=" max-w-[1100px]  w-ful h-full  mx-auto flex flex-col  justify-center ">
         <div className=" px-3 ">
           <h2 className="text-gray-100 text-4xl font-bold border-b-4 border-pink-600 inline ">
             Skills
